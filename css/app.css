@@ -11158,7 +11158,8 @@ textarea.form-control-lg {
 }
 
 .be-icon {
-  left: -5%;
+  left: -13px !important;
+  font-size: 25px;
 }
 
 .be-last::before {
@@ -11275,6 +11276,10 @@ textarea.form-control-lg {
   .container {
     padding-left: 140px;
     padding-right: 140px;
+  }
+
+  .be-icon {
+    left: -15px !important;
   }
 }
 @media screen and (max-width: 576px) {

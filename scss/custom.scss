@@ -71,8 +71,15 @@ $font-family-sans-serif : 'Rubik', sans-serif;
 }
 
 .be-icon{
-    left: -5%;
+    // left: -5%;
+    left: -13px!important;
+    font-size: 25px;
+    // right:270px!important;
 }
+
+// .be-icon::before{
+//     width: 27.86px !important;
+// }
 
 .be-last::before{
     height: 140.36px;
@@ -194,6 +201,10 @@ $font-family-sans-serif : 'Rubik', sans-serif;
         padding-right: 140px;
     }
 
+    .be-icon{
+        left: -15px !important;
+    }
+
     
 }
 
@@ -201,4 +212,8 @@ $font-family-sans-serif : 'Rubik', sans-serif;
     .navbar{
         position: static;
     }
+
+    // .be-icon{
+    //     left: -13px !important;
+    // }
 }
